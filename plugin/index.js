@@ -71,7 +71,7 @@ module.exports = function (app) {
       }
     });
 
-    // Servir la UI desde `/ui/`
+    // Servir la UI desde `/plugins/signalk-m5paper-config/`
     router.get("/", (req, res) => {
       res.sendFile(path.join(__dirname, "ui/index.html"));
     });
