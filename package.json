@@ -1,0 +1,23 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "m5paper config parameters",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdiazrv/signalk-m5paper-config.git"
+  },
+  "keywords": [
+    "m5paper",
+    "signalk"
+  ],
+  "author": "jdiazrv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jdiazrv/signalk-m5paper-config/issues"
+  },
+  "homepage": "https://github.com/jdiazrv/signalk-m5paper-config#readme"
+}

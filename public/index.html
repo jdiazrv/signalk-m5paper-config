@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configuración M5Paper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Configuración M5Paper</h1>
+    <form id="configForm">
+        <h2>Intervalos de Actualización (segundos)</h2>
+        <label>Fondeo: <input type="number" id="anchor" /></label>
+        <label>Electricidad: <input type="number" id="electric" /></label>
+        <label>Motor: <input type="number" id="engine" /></label>
+
+        <h2>Dispositivo</h2>
+        <label>Tiempo en Sueño (segundos): <input type="number" id="sleepTime" /></label>
+        <label>Método de Despertar:
+            <select id="wakeMethod">
+                <option value="timer">Temporizador</option>
+                <option value="touch">Toque</option>
+                <option value="movement">Movimiento</option>
+            </select>
+        </label>
+
+        <button type="submit">Guardar</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
