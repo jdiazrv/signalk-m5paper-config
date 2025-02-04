@@ -1,0 +1,50 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configuración M5Paper</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Configuración M5Paper</h1>
+    <form id="configForm">
+        <h2>Intervalos de Actualización (segundos)</h2>
+        <label>Fondeo: <input type="number" id="anchorUpdateInterval" /></label>
+        <label>Electricidad: <input type="number" id="electricUpdateInterval" /></label>
+        <label>Motor: <input type="number" id="engineUpdateInterval" /></label>
+        <label>Potabilizadora: <input type="number" id="watermakerUpdateInterval" /></label>
+        <label>Temperaturas: <input type="number" id="weatherUpdateInterval" /></label>
+
+        <h2>Dispositivo</h2>
+        <label>Inicio de Sueño Profundo: <input type="time" id="deepSleepStart" /></label>
+        <label>Fin de Sueño Profundo: <input type="time" id="deepSleepEnd" /></label>
+        <label>Método de Despertar:
+            <select id="wakeMethod">
+                <option value="timer">Temporizador</option>
+                <option value="touch">Toque</option>
+                <option value="movement">Movimiento</option>
+            </select>
+        </label>
+
+        <h2>Tiempo de Sueño Total</h2>
+        <label>Tiempo de standby entre actualizaciones (segundos): <input type="number" id="sleepTime" /></label>
+
+        <button type="submit">Guardar</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

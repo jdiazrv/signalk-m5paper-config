@@ -1,24 +1,14 @@
 {
-  "name": "package.json",
-  "version": "1.0.1",
-  "description": "m5paper config parameters",
-  "main": "index.js",
-  "signalkPlugin": true,
-  "scripts": {
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jdiazrv/signalk-m5paper-config.git"
-  },
+  "name": "signalk-m5paper-config",
+  "version": "0.9.1",
+  "description": "My signalk plugin",
   "keywords": [
-    "m5paper",
-    "signalk"
+    "signalk-node-server-plugin",
+    "signalk-category-utility"
   ],
-  "author": "jdiazrv",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jdiazrv/signalk-m5paper-config/issues"
+  "signalk-plugin-enabled-by-default": false,
+  "signalk": {
+    "displayName": "m5paper config"
   },
-  "homepage": "https://github.com/jdiazrv/signalk-m5paper-config#readme"
+  "main": "plugin/index.js"
 }
