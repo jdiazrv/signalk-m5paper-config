@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "m5paper config parameters",
   "main": "index.js",
+  "signalkPlugin": true,
   "scripts": {
     "test": "test"
   },
